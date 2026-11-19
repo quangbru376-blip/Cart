@@ -6,7 +6,11 @@ body {
     padding: 20px;
     background-color: #fff;
 }
-
+table, tr, th, td{
+    width: 1000px;
+    border-collapse: collapse;
+    border: 1px solid black
+}
 /* Kiểu chữ cho tiêu đề */
 h1 {
     font-size: 250%;

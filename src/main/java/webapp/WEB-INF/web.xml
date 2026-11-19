@@ -6,12 +6,12 @@
         https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
 
     <servlet>
-        <servlet-name>EmailListServlet</servlet-name>
-        <servlet-class>com.example.EmailListServlet</servlet-class>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>com.example.CartServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>EmailListServlet</servlet-name>
-        <url-pattern>/emaillist</url-pattern>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/cart</url-pattern>
     </servlet-mapping>
 
     <session-config>
@@ -20,6 +20,5 @@
 
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
-        <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
